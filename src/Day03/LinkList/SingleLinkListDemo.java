@@ -12,12 +12,14 @@ public class SingleLinkListDemo {
 
         SingleLinkedList singleLinkedList = new SingleLinkedList();
         // 顺序加
+
         /*
         singleLinkedList.add(hero1);
         singleLinkedList.add(hero2);
         singleLinkedList.add(hero3);
         singleLinkedList.add(hero4);
         */
+
         // 乱序加
         singleLinkedList.addByOrder(hero1);
         singleLinkedList.addByOrder(hero3);
